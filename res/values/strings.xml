@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PermissionMonitor</string>
+    <string name="action_refresh">Rafraîchir</string>
+
+    <string name="title_activity_details">Détails</string>
+
+    <string name="currently_running">Applications en cours d\'exécution</string>
+    <string name="app_filter">Filtrer</string>
+    <string name="permissions">Permissions</string>
+
+    <string-array name="details_display_types">
+        <item>Permissions demandées</item>
+        <item>Permissions</item>
+    </string-array>
+
+</resources>
