@@ -1,0 +1,17 @@
+package org.warpten.permissionmonitor;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Storage {
+
+    public List<ApplicationInfo> Applications = new ArrayList<ApplicationInfo>();
+
+    private static Storage _instance = null;
+    public static Storage getInstance()
+    {
+        if (_instance == null)
+            _instance = new Storage();
+        return _instance;
+    }
+}
